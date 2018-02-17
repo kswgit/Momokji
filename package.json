@@ -1,0 +1,21 @@
+{
+  "name": "momokji",
+  "version": "1.0.0",
+  "description": "Kakao chatbot, Sugest some restaurants for starving students who don't want to eat school meals.",
+  "main": "app.js",
+  "repository": "https://cia.kw.ac.kr/api/",
+  "author": "Sungwoo Kim",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0"
+  },
+  "scripts": {
+    "start": "tsc && node src/app.js"
+  },
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
